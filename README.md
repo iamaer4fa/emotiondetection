@@ -9,25 +9,25 @@ Installation:
 
 Create python virtual environment:
 
-`python -v venv <yourProjectName>`
+```bash
+python -v venv <yourProjectName>
+```
 
-install depp audio features
+install deep audio features
 
-`pip3 install dee-audio-features -U`
+```bash
+pip3 install deep-audio-features -U
+```
 
-Install dependencies, ie., PyTorch, numpy, imblearn scilearn
-
-`pip install torch`
-
-`pip install numpy`
-
-`pip install imblearn`
-
-`pip install matplotlib`
-
-`pip install librosa`
-
-`pip install tqdm`
+Install dependencies, ie., PyTorch, numpy, etc
+```bash
+pip install torch
+pip install numpy
+pip install imblearn
+pip install matplotlib
+pip install librosa
+pip install tqdm
+```
 
 
   
