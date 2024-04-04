@@ -6,16 +6,28 @@ Submit as many audio clips as you want, need to be the same length with sample T
 Thanks to https://github.com/tyiannak/deep_audio_features
 
 Installation:
+
 Create python virtual environment:
-# python -v venv <yourProjectName>
-Install deep audio
-# pip3 install dee-audio-features -U
+
+`python -v venv <yourProjectName>`
+
+install depp audio features
+
+`pip3 install dee-audio-features -U`
+
 Install dependencies, ie., PyTorch, numpy, imblearn scilearn
-# pip install torch
-# pip install numpy
-# pip install imblearn
-# pip install matplotlib
-# pip install librosa
-# pip install tqdm
+
+`pip install torch`
+
+`pip install numpy`
+
+`pip install imblearn`
+
+`pip install matplotlib`
+
+`pip install librosa`
+
+`pip install tqdm`
+
 
   
