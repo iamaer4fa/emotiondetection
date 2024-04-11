@@ -1,0 +1,16 @@
+Loaded model class mapping: {0: '.\\anger\\', 1: '.\\disgust\\', 2: '.\\fear\\', 3: '.\\happy\\', 4: '.\\neutral\\', 5: '.\\ps\\', 6: '.\\sad\\'}
+--> Extracting spectrogram associated features. . .
+--> Using resizing with new_size (height, width) = (41, 128)
+--> Unormalized posteriors:
+ [array([-15.584449 , -13.622387 , -13.559701 ,  -5.080329 , -16.608881 ,
+        -9.0473995, -18.563776 ], dtype=float32)]
+
+--> Predictions:
+ ['.\\happy\\']
+.\happy\	0.00
+.\ps\	0.02
+.\fear\	0.00
+.\disgust\	0.00
+.\anger\	0.89
+.\neutral\	0.00
+.\sad\	0.00

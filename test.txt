@@ -1,0 +1,9 @@
+--> Predictions:
+ ['.\\disgust\\']
+.\disgust\      0.93
+.\ps\   0.05
+.\neutral\      0.01
+.\sad\  0.01
+.\anger\        0.00
+.\happy\        0.00
+.\fear\ 0.00
