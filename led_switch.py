@@ -5,12 +5,16 @@ from tuya_connector import (
 	TuyaCloudPulsarTopic,
 )
 
-DEVICE_ID ="eb1aeabb37c62584f7ke0s"
-ACCESS_ID = "rhppxs9m9gxkprknfvx3"
-ACCESS_KEY = "da9fa76c78dc4bd08564b0b048b8be79"
+# Initiate connection to Tuya device
+ACCESS_ID = "<access_id>"
+ACCESS_KEY = "<access_key>"
 API_ENDPOINT = "https://openapi.tuyaus.com"
 MQ_ENDPOINT = "wss://mqe.tuyaus.com:8285/"
-BULB_MODEL_NAME = "LED BULB W509Z2"
+
+DEVICE_ID ="<device_id>"
+
+BULB_MODEL_NAME = "<rgb_model_name>"
+
 
 # Init OpenAPI and connect
 openapi = TuyaOpenAPI(API_ENDPOINT, ACCESS_ID, ACCESS_KEY)
